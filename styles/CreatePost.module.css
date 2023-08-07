@@ -1,0 +1,33 @@
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  width: 100%;
+}
+
+.title {
+  margin-bottom: 30px;
+  color: black;
+  text-align: center;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.textarea {
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.button:disabled {
+  background-color: #bbb;
+  cursor: not-allowed;
+}

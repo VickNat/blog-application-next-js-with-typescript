@@ -12,7 +12,7 @@ const blog: React.FC<Props> = ({blog}) => {
 
   const router = useRouter();
 
-  const handleDelete = async (e: React.FormEvent) => {
+  const handleDelete = async (e: any) => {
     const id = blog.id
     if (
       window.confirm(

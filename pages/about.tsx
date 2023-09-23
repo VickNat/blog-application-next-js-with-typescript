@@ -4,7 +4,7 @@ const about = () => {
   return (
     <div>
       <Head>
-        <title>This is a title</title>
+        <title>Blogify</title>
       </Head>
       <h1>About</h1>
       <p>This is a simple blogging application using jsonplaceholder as api to demonstrate CRUD operations on the blogs.
